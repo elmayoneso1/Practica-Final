@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "04b03";
+  src: url(../fonts/04b03.ttf)format(“truetype”);
+}
+ body {
+  background: #121212;
+  color: #E0E0E0;
+  font-family: "04b03";
+}
+/* PRESENTACION */
+.presentacion {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  position: absolute;
+  position: fixed;
+  z-index: 10;
+  text-align: center;
+}
+.presen1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.presen1 img {
+  width: 300px;
+  height: auto;
+}
+.presen1 h1 {
+  font-size: 70px;
+}
+.presen1 h2 {
+  font-size: 40px;
+}
+/* PRESENTACION */
+
+
+/* NAVBAR */
+.navbar1 {
+  background: #000000;
+  position: relative;
+  z-index: 1;
+}
+.navbar1 a {
+  color: #BDBDBD;
+}
+/* NAVBAR */
+
+
+/* CARRUSEL */
+.carousel-item img {
+  height: 700px;
+}
+/* CARRUSEL */
+
+
+/* SECCION__CARDS */
+section {
+  position: relative;
+  z-index: 1;
+}
+section h3 {
+  font-size: 40px;
+}
+.card{
+  background: #212121;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.4);
+}
+.btn-primary {
+  background: #121212;
+  border: 2px solid #212121;
+}
+.btn-primary:hover{
+  background: #474787;
+  border: 2px solid #474787;
+}
+/* SECCION__CARDS */
+
+
+/* ACCORDION */
+.accordion-item, .accordion-button {
+  background: #171717;
+}
+.accordion-button {
+  color: #BDBDBD;
+}
+.accordion img {
+  width: 250px;
+  height: auto;
+}
+/* ACCORDION */
+
+
+/* LISTAS */
+.listas img {
+  height: 250px;
+  width: 635px;
+}
+.list-group-item {
+  background: #171717;
+  color: #BDBDBD;
+}
+.activo {
+  background: #474787 !important;
+  border: 2px solid #474787 !important;
+}
+/* LISTAS */
+
+
+/* FOOTER */
+footer {
+  background: #000000;
+  bottom: 0;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+footer h1 {
+  font-size: 20px;
+}
+a i {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+a i:hover {
+  color: #474787;
+}
+/* FOOTER */
